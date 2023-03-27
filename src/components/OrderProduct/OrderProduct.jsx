@@ -1,6 +1,5 @@
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ReviewOrder from '../ReviewOrder/ReviewOrder';
 import './OrderProduct.css';
 
 const OrderProduct = (props) => {
@@ -23,7 +22,7 @@ const OrderProduct = (props) => {
     //review order
     const HandelReviewOrder = (product) => {
         {
-            <ReviewOrder product={product}></ReviewOrder>
+
         }
     }
 
